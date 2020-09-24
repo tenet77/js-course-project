@@ -192,7 +192,21 @@ section#skills {
 }
 
 section#projects {
+  flex-direction: column;
   background-color: var(--navColor4);
+}
+
+.project-content {
+  height: 30px;
+  width: 80vw;
+  text-align: center;
+  margin: 5px;
+}
+
+.project-content a {
+  width: 100%;
+  height: 100%;
+  color: var(--primaryColor);
 }
 
 section#contact {
